@@ -14,6 +14,7 @@
 		0309A0CE1BDE032500177C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309A0CC1BDE032500177C93 /* LaunchScreen.storyboard */; };
 		0309A0D91BDE032500177C93 /* MailboxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309A0D81BDE032500177C93 /* MailboxAppTests.swift */; };
 		0309A0E41BDE032600177C93 /* MailboxAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309A0E31BDE032600177C93 /* MailboxAppUITests.swift */; };
+		0309A0F21BDE037E00177C93 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309A0F11BDE037E00177C93 /* MailboxViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0309A0DF1BDE032600177C93 /* MailboxAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailboxAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0309A0E31BDE032600177C93 /* MailboxAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailboxAppUITests.swift; sourceTree = "<group>"; };
 		0309A0E51BDE032600177C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0309A0F11BDE037E00177C93 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0309A0C31BDE032500177C93 /* AppDelegate.swift */,
 				0309A0C51BDE032500177C93 /* ViewController.swift */,
 				0309A0C71BDE032500177C93 /* Main.storyboard */,
+				0309A0F11BDE037E00177C93 /* MailboxViewController.swift */,
 				0309A0CA1BDE032500177C93 /* Assets.xcassets */,
 				0309A0CC1BDE032500177C93 /* LaunchScreen.storyboard */,
 				0309A0CF1BDE032500177C93 /* Info.plist */,
@@ -257,6 +260,7 @@
 			files = (
 				0309A0C61BDE032500177C93 /* ViewController.swift in Sources */,
 				0309A0C41BDE032500177C93 /* AppDelegate.swift in Sources */,
+				0309A0F21BDE037E00177C93 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
